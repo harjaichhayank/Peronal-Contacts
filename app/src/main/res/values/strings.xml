@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SQLiteDatabseProject</string>
+
+    <string name="personal_contacts">Personal Contacts</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="view_contact">View Contact</string>
+    <string name="add_newUser_information">Add NewUser Information</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="save_info">Save Info</string>
+    <string name="search_name">Search Name</string>
+    <string name="search">Search</string>
+    <string name="email_here">Email Here</string>
+    <string name="number_here">Number Here</string>
+    <string name="name_here">Name Here</string>
+
+</resources>

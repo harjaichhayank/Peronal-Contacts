@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/PersonalContactsId"
+        android:layout_width="244dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/personal_contacts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:background="@color/buttonColor"
+        android:id="@+id/AddContactId"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/add_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalContactsId"
+        android:onClick="newUserInfo"/>
+
+    <Button
+        android:background="@color/buttonColor"
+        android:id="@+id/UpdateContactId"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/update_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalContactsId"
+        android:onClick="updateContact"/>
+
+    <Button
+        android:background="@color/buttonColor"
+        android:id="@+id/SearchContactId"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="264dp"
+        android:text="@string/search_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalContactsId"
+        android:onClick="searchContact"/>
+
+    <Button
+        android:background="@color/buttonColor"
+        android:id="@+id/ViewContactId"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/view_contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalContactsId"
+        android:onClick="viewContact"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
